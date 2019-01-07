@@ -8076,10 +8076,10 @@ react-is@^16.3.2, react-is@^16.6.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.6.1.tgz#f77b1c3d901be300abe8d58645b7a59e794e5982"
   integrity sha512-wOKsGtvTMYs7WAscmwwdM8sfRRvE17Ym30zFj3n37Qx5tHRfhenPKEPILHaHob6WoLFADmQm1ZNrE5xMCM6sCw==
 
-react-jsx-highcharts@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/react-jsx-highcharts/-/react-jsx-highcharts-3.3.0.tgz#7ae1179a0dc950fd71cd73704af4f9520d10bd04"
-  integrity sha512-Hac5eNbSED1V9QyeaHT+amwzeN0L+FtCEJoRB91+ORMHlGUlF85Ctb6JmCoekT1lakypsT5ZoL8SG9+VsNKBJA==
+react-jsx-highcharts@^3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/react-jsx-highcharts/-/react-jsx-highcharts-3.4.0.tgz#b5da68a766358f2456e582aa725a04dc3a30b602"
+  integrity sha512-v5bPKz0E9DsVevPnS76bVlKflBHLmv7QAsLuuXOESRBlgjDgXZS+Vtw0828o0hxI/H6auu5BWUmDRHfLES74bw==
   dependencies:
     "@babel/runtime" "^7.1.2"
     create-react-context "^0.2.2"
