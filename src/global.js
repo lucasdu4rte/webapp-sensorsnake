@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
+import 'bootstrap/scss/bootstrap.scss'
 
 const GlobalStyle = createGlobalStyle`
   * {

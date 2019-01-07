@@ -1,16 +1,21 @@
 import React, { Component } from 'react'
-import NavBar from './components/Navbar'
 import GlobalStyle from './global'
+
 import ContentGrid from './components/ContentGrid'
+import NavBar from './components/Navbar'
+import Footer from './components/Footer'
 
 class App extends Component {
   render() {
     return (
-      <div>
+      <>
         <GlobalStyle />
-        <NavBar />
-        <ContentGrid />
-      </div>
+        <div>
+          <NavBar />
+          <ContentGrid />
+          <Footer />
+        </div>
+      </>
     )
   }
 }
