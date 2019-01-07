@@ -1,72 +1,310 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import { withStyles } from '@material-ui/core/styles'
-import Grid from '@material-ui/core/Grid'
-
-import MediaCard from './MediaCard'
-import LineChart from './LineChart'
-
-const styles = theme => {
-  return {
-    root: {
-      flexGrow: 1,
-      [theme.breakpoints.down('sm')]: {
-        paddingTop: theme.spacing.unit * 2
-      },
-      [theme.breakpoints.up('md')]: {
-        paddingTop: theme.spacing.unit * 4
-      },
-      [theme.breakpoints.up('lg')]: {
-        paddingTop: theme.spacing.unit * 6
-      }
-    },
-    container: {
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center'
-    },
-    item: {
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center',
-      padding: 'none',
-      maxWidth: '100%'
-    }
-  }
-}
+// import PropTypes from 'prop-types'
 
 function ContentGrid(props) {
-  const { classes } = props
   return (
-    <div className={classes.root}>
-      <Grid className={classes.container} container spacing={24}>
-        <Grid className={classes.item} item sm={6}>
-          <MediaCard>
-            <LineChart />
-          </MediaCard>
-        </Grid>
-        <Grid className={classes.item} item sm={6}>
-          <MediaCard>
-            <LineChart />
-          </MediaCard>
-        </Grid>
-        <Grid className={classes.item} item sm={6}>
-          <MediaCard>
-            <LineChart />
-          </MediaCard>
-        </Grid>
-        <Grid className={classes.item} item sm={6}>
-          <MediaCard>
-            <LineChart />
-          </MediaCard>
-        </Grid>
-      </Grid>
-    </div>
+    <main role="main">
+      <div className="album py-5 bg-light">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-4">
+              <div className="card mb-4 shadow-sm">
+                <img className="card-img-top" src="" alt="Card cap" />
+                <div className="card-body">
+                  <p className="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <div className="d-flex justify-content-between align-items-center">
+                    <div className="btn-group">
+                      <button
+                        type="button"
+                        className="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                      <button
+                        type="button"
+                        className="btn btn-sm btn-outline-secondary"
+                      >
+                        Edit
+                      </button>
+                    </div>
+                    <small className="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="card mb-4 shadow-sm">
+                <img
+                  className="card-img-top"
+                  data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                  alt="Card cap"
+                />
+                <div className="card-body">
+                  <p className="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <div className="d-flex justify-content-between align-items-center">
+                    <div className="btn-group">
+                      <button
+                        type="button"
+                        className="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                      <button
+                        type="button"
+                        className="btn btn-sm btn-outline-secondary"
+                      >
+                        Edit
+                      </button>
+                    </div>
+                    <small className="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="card mb-4 shadow-sm">
+                <img
+                  className="card-img-top"
+                  data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                  alt="Card cap"
+                />
+                <div className="card-body">
+                  <p className="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <div className="d-flex justify-content-between align-items-center">
+                    <div className="btn-group">
+                      <button
+                        type="button"
+                        className="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                      <button
+                        type="button"
+                        className="btn btn-sm btn-outline-secondary"
+                      >
+                        Edit
+                      </button>
+                    </div>
+                    <small className="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="card mb-4 shadow-sm">
+                <img
+                  className="card-img-top"
+                  data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                  alt="Card cap"
+                />
+                <div className="card-body">
+                  <p className="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <div className="d-flex justify-content-between align-items-center">
+                    <div className="btn-group">
+                      <button
+                        type="button"
+                        className="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                      <button
+                        type="button"
+                        className="btn btn-sm btn-outline-secondary"
+                      >
+                        Edit
+                      </button>
+                    </div>
+                    <small className="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="card mb-4 shadow-sm">
+                <img
+                  className="card-img-top"
+                  data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                  alt="Card cap"
+                />
+                <div className="card-body">
+                  <p className="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <div className="d-flex justify-content-between align-items-center">
+                    <div className="btn-group">
+                      <button
+                        type="button"
+                        className="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                      <button
+                        type="button"
+                        className="btn btn-sm btn-outline-secondary"
+                      >
+                        Edit
+                      </button>
+                    </div>
+                    <small className="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="card mb-4 shadow-sm">
+                <img
+                  className="card-img-top"
+                  data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                  alt="Card cap"
+                />
+                <div className="card-body">
+                  <p className="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <div className="d-flex justify-content-between align-items-center">
+                    <div className="btn-group">
+                      <button
+                        type="button"
+                        className="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                      <button
+                        type="button"
+                        className="btn btn-sm btn-outline-secondary"
+                      >
+                        Edit
+                      </button>
+                    </div>
+                    <small className="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="card mb-4 shadow-sm">
+                <img
+                  className="card-img-top"
+                  data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                  alt="Card cap"
+                />
+                <div className="card-body">
+                  <p className="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <div className="d-flex justify-content-between align-items-center">
+                    <div className="btn-group">
+                      <button
+                        type="button"
+                        className="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                      <button
+                        type="button"
+                        className="btn btn-sm btn-outline-secondary"
+                      >
+                        Edit
+                      </button>
+                    </div>
+                    <small className="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="card mb-4 shadow-sm">
+                <img
+                  className="card-img-top"
+                  data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                  alt="Card cap"
+                />
+                <div className="card-body">
+                  <p className="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <div className="d-flex justify-content-between align-items-center">
+                    <div className="btn-group">
+                      <button
+                        type="button"
+                        className="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                      <button
+                        type="button"
+                        className="btn btn-sm btn-outline-secondary"
+                      >
+                        Edit
+                      </button>
+                    </div>
+                    <small className="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="card mb-4 shadow-sm">
+                <img
+                  className="card-img-top"
+                  data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                  alt="Card cap"
+                />
+                <div className="card-body">
+                  <p className="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <div className="d-flex justify-content-between align-items-center">
+                    <div className="btn-group">
+                      <button
+                        type="button"
+                        className="btn btn-sm btn-outline-secondary"
+                      >
+                        View
+                      </button>
+                      <button
+                        type="button"
+                        className="btn btn-sm btn-outline-secondary"
+                      >
+                        Edit
+                      </button>
+                    </div>
+                    <small className="text-muted">9 mins</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   )
 }
 
-ContentGrid.propTypes = {
-  classes: PropTypes.object.isRequired
-}
-
-export default withStyles(styles)(ContentGrid)
+export default ContentGrid
